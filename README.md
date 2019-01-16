@@ -2,4 +2,4 @@
 
 Major overhaul for portfolio update.
 
-Viewable here: [Github live link](https://s07w.github.io/portfolio/)
+Viewable here: [live link](https://s07w.github.io/portfolio/)
