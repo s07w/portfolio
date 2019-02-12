@@ -49,6 +49,7 @@ $(document).ready(function () {
         var projcard5 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/pf5.png'><span style='font-size:1.40em;' class='card-title white-text yellow'>Liri App</span></div><div class='card-content'><p class='card-textcontent'>A JS Node app that takes four commands to access different APIs</p></div><a style='font-size:1.40em;padding:10px;' class='yellow-text' href='https://s07w.github.io/liri/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/s07w/liri' target='_blank'>GitHub</a></p></div></div>");
         var projcard6 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/pf6.jpeg'><span style='font-size:1.40em;' class='card-title white-text yellow'>Constructor Wordsearch</span></div><div class='card-content'><p class='card-textcontent'>A JS Node word search game using JS constructors and Inquire npm</p></div><a style='font-size:1.40em;padding:10px;' class='yellow-text' href='https://s07w.github.io/constructor-wordguess/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/s07w/constructor-wordguess/' target='_blank'>GitHub</a></p></div></div>");
         var projcard7 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/pf7.jpg'><span style='font-size:1.40em;' class='card-title white-text yellow'>Bamazon App</span></div><div class='card-content'><p class='card-textcontent'>A JS Node app using MySQL and npm packages</p></div><a style='font-size:1.40em;padding:10px;' class='yellow-text' href='https://s07w.github.io/bamazon/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/s07w/bamazon/' target='_blank'>GitHub</a></p></div></div>");
+        var projcard8 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/pf8.png'><span style='font-size:1.40em;' class='card-title white-text yellow'>Eat Da Burger</span></div><div class='card-content'><p class='card-textcontent'>An app that uses Handlebars and ORM to devour burgers</p></div><a style='font-size:1.40em;padding:10px;' class='yellow-text' href='https://s07w.github.io/eatdaburger/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/s07w/eatdaburger/' target='_blank'>GitHub</a></p></div></div>");
 
 
 
@@ -57,7 +58,7 @@ $(document).ready(function () {
         var cardrow2 = $("<div class='row'></div>");
         cardrow2.append(projcard4).append(projcard5).append(projcard6);
         var cardrow3 = $("<div class='row'></div");
-        cardrow3.append(projcard7);
+        cardrow3.append(projcard7).append(projcard8);
         var portfolioDiv = $("<div class='content'></div>");
         portfolioDiv.attr("value", 3);
         portfolioDiv.append(portfolioTitle).append(cardrow);
