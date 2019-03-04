@@ -100,6 +100,7 @@ body{
 /* portfolio styling fix cards, for media queries */
 #portfolio-headText{
     margin-top: 20px;
+    margin-bottom: 10px;
     padding-top: 3%;
     font-size: 5em;
 }
